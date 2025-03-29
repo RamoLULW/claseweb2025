@@ -1,36 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Color Button</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-        button {
-            padding: 20px 40px;
-            font-size: 1.5rem;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-    </style>
-</head>
-<body>
-    <button onclick="changeColor()">Click me!</button>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Curriculum de Omar Caballero Caballero">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Omar Caballero Caballero</h1>
+            <p>Estudiante de ITC</p>
+            <p>Email: mromarsin@gmail.com</p>
+            <p>Telefono: +52 951-321-5210</p>
+            <p>Direccion: Monterrey, Nuevo Leon, Mexico</p>
+        </header>
 
-    <script>
-        function changeColor() {
-            const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-            document.body.style.backgroundColor = randomColor;
-        }
-    </script>
-</body>
+        <section id="education">
+            <h2>Educacion</h2>
+            <ul>
+                <li>
+                    <strong>Universidad Tecnologico de Monterrey</strong> - Ingenieria en Tecnologias Computacionales <br>
+                    <em>Fecha de Inicio: Agosto 2023 - Actualmente</em>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experiencia</h2>
+            <ul>
+                <li>
+                    <strong>Desarrollo en Sistema de Punto de Venta</strong> - Empresa Caballero <br>
+                    <em>Marzo 2023 - Diciembre 2023</em> <br>
+                    <p>Creé y diseñe la aplicacion del sistema de puntos de ventas para que sus negocios sea mas eficientes y productivo.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, C++, Python, Oracle Apex, Tetris</li>
+                <li>Trabajo en equipo y liderazgo</li>
+                <li>Conocimiento basico de Unity</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Ingles: Nativo</li>
+                <li>Español: Intermedio</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>@ 2025 Omar Caballero Caballero. Todos los derechos absolutamente para nada reservados.</p>
+        </footer>
+
+
+        <script src="" async defer></script>
+    </body>
 </html>
